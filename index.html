@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>일본 여행 가이드 - 10605 김우리</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar-brand {
+      font-size: 24px; /* 폰트 사이즈 조정 */
+      font-weight: bold; /* 폰트 굵기 조정 */
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+    }
+    .navbar {
+      margin-bottom: 30px;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .bg-light {
+      background-color: #f8f9fa !important;
+    }
+    .bg-primary {
+      background-color: #00BFFF !important;
+      color: white;
+    }
+    .bg-secondary {
+      background-color: #ffa6c9 !important;
+      color: white;
+    }
+    .bg-success {
+      background-color: #28a745 !important;
+      color: white;
+    }
+    .bg-info {
+      background-color: #ffd400 !important;
+      color: white;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    .carousel-inner img,
+    .attraction-item img {
+      width: 100%;
+      height: auto;
+    }
+    .modal-body img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
+    .attraction-item {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .btn-details {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+    iframe {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- 내비게이션 바 - 항목을 변경하거나 추가할 수 있습니다 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">일본 여행 가이드 - 10605 김우리</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#overview">개요</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#history">역사</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#attractions">관광지</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tips">여행 팁</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 개요 섹션 -->
+  <section id="overview" class="section bg-primary">
+    <div class="container">
+      <h2 class="text-center">개요</h2>
+      <p>태국은 동남아시아에 위치한 국가로, 주로 인구가 많은 도시들인 방콕(수도), 청마이, 파타야 등이 유명합니다. 이 나라는 14세기에 설립되었으며, 태국어를 사용하는 인구가 많습니다.</p>
+      <!-- 이미지 슬라이드 - 이미지를 변경하려면 src 속성 값을 수정하세요 -->
+      <div id="overviewCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/thailand 1.jpg" class="d-block w-100" alt="일본 개요 1">	
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/thailand 2.jpg" class="d-block w-100" alt="일본 개요 2">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/thailand 3.jpg" class="d-block w-100" alt="일본 개요 3">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/thailand 4.jpg" class="d-block w-100" alt="일본 개요 4">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/thailand 5.jpg" class="d-block w-100" alt="일본 개요 5">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#overviewCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">이전</span>
+        </a>
+        <a class="carousel-control-next" href="#overviewCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">다음</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 역사 섹션 -->
+  <section id="history" class="section bg-secondary">
+    <div class="container">
+      <h2 class="text-center">역사</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/thailand his 1.jpg" alt="태국 역사 1" class="img-fluid">
+            <p>"아유타야(1350-1767)"는 태국 역사상 번영한 수도였습니다. 33명의 왕이 417년 동안 아유타야를 통치했고, 이 도시는 크메르 왕조의 번성기에 위치했습니다. 아유타야는 변방에 있음에도 불구하고 성장을 거듭하여 태국 외에도 라오스, 캄보디아, 미얀마까지 영토를 확장했습니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/thailand his 2.jpg" alt="태국 역사 2" class="img-fluid">
+            <p>태국 최초의 통일국가인 "수코타이" 왕조의 수도였다.수코타이는 "행복의 새벽"이라는 뜻으로 패권을 넘겨주어 100여년 동안 번영을 누린 도시다. 수코타이 역사공원은 유네스코 세계문화유산에 등재되었다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/thailand his 3.jpg" alt="태국 역사 3" class="img-fluid">
+            <p>"왓 체디 루앙"은 태국 북부에 위치한 중세에서 조기 근대에 이르기까지 루앙 왕국의 수도였던 도시입니다. 이 도시는 람탕 왕조 시대에 번영하였으나, 18세기 초 슬레이 수행자의 침공으로 완전히 파괴되었습니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 역사 1 -->
+  <div class="modal fade" id="historyModal1" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel1">역사 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/thailand his 1.jpg" alt="태국 역사 1" class="img-fluid">
+          <p>[야유타야]고대 시대: 야유타야의 지역은 고대에 존재하던 도시들과 맞닿아 있었으며, 당시 퀘스트(Quet) 제국과 수코타이(Sukhothai) 왕국의 중요한 영향을 받았습니다.
+
+아유타야 왕국: 14세기 말부터 18세기 중반까지 아유타야 왕국이 번성했습니다. 이 왕국은 수코타이 왕국의 후계자로서, 야유타야를 수도로 선포하였고, 중국과 인도 등 다양한 문화적 영향을 받았습니다.
+
+비종전 시기: 18세기 말부터 19세기 초반까지, 야유타야는 미얀마와의 여러 차례 전쟁을 치르며, 국제적인 중요성을 갖췄습니다.
+
+.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 2 -->
+  <div class="modal fade" id="historyModal2" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel2">역사 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/thailand his 2.jpg" alt="태국 역사 2" class="img-fluid">
+          <p>[수코타이]설립: 수코타이 왕국은 1238년, 라마캄행(Ramkhamhaeng)이라는 왕이 세운 것으로 알려져 있습니다. 라마캄행은 수코타이를 수도로 선포하고, 태국 역사상 첫 번째 피직적으로 기록된 태국 문자를 만들었습니다.
+
+번성과 확장: 수코타이 왕국은 초기에 주변 지역을 정복하고 확장하여, 중심지에서 지방까지 영토를 넓혔습니다. 이는 또한 힌두교와 불교 문화의 번성을 도왔습니다.
+
+문화적 발전: 수코타이 왕국은 불교를 중심으로 한 문화적 번성을 경험했습니다. 라마캄행은 불교를 국교로 채택하고, 불교 사원과 탑을 건설하여 수도를 화려하게 만들었습니다.
+
+사회적 구조: 수코타이는 상당히 진보된 사회적 구조를 갖추고 있었으며, 주로 농업과 무역을 중심으로 한 경제적 번영을 이루어 냈습니다.
+
+멸망: 15세기 후반, 수코타이 왕국은 아유타야 왕국에 흡수되었습니다. 이는 주로 그 시대의 정치적 격변 때문이었으며, 아유타야 왕국은 수코타이의 문화적 유산을 이어받아 많은 면에서 이를 발전시켰습니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 3 -->
+  <div class="modal fade" id="historyModal3" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel3">역사 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/thailand his 3.jpg" alt="태국 역사 3" class="img-fluid">
+          <p>[왓 체디 루앙]건립: 왓 체디 루앙은 14세기 초반에 왕 사이 캄문 캄피라(King Saen Muang Ma)에 의해 건립되었습니다. 이 사원은 청마이의 중심부에 위치하고 있으며, 그 당시 청마이 왕국의 중요한 종교적 중심지로 자리 잡았습니다.
+
+구조: 왓 체디 루앙은 초기에는 더욱 높은 기둥을 가지고 있었으나, 16세기에 지진으로 인해 크게 파괴되었습니다. 그럼에도 불구하고, 남아 있는 건축물들은 그 당시 대단히 장엄하고 중요한 종교적 건축물임을 보여줍니다.
+
+종교적 중요성: 왓 체디 루앙은 주로 태국의 불교 사원으로, 중요한 불교적 의미를 지닌 곳입니다. 이 사원은 다수의 불교적 기념비 및 상징물들로 장식되어 있으며, 방문객들에게 매우 인기 있는 관광 명소입니다.
+
+현대적 재건: 왓 체디 루앙은 20세기 후반부터 21세기 초반에 걸쳐 여러 차례 재건되었습니다. 이는 주로 태국 정부와 관광 산업의 투자를 받아, 사원의 건축적인 복원 및 보존 작업이 이루어졌습니다.
+
+문화적 유산: 왓 체디 루앙은 태국의 문화 유산으로서 중요한 위치를 차지하고 있으며, 청마이의 관광 산업에 중요한 역할을 하고 있습니다. 이 사원은 또한 태국의 역사와 종교적 발전을 이해하는 데 중요한 자료와 건축적 특징들을 제공합니다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 관광지 섹션 -->
+  <section id="attractions" class="section bg-success">
+    <div class="container">
+      <h2 class="text-center">관광지</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/thailand tour 1.jpg" alt="태국 관광지 1" class="img-fluid">
+            <p>태국의 수도로, 왕궁, 왓 아룬, 차이포냐 쓰칼릿 등의 역사적인 장소와 쇼핑 명소가 있습니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/thailand tour 2.jpg" alt="태국 관광지 2" class="img-fluid">
+            <p>아름다운 해변과 푸켓 판타시, 신라, 카론 등의 인기 있는 해변이 있습니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/thailand tour 3.jpg" alt="태국 관광지 3" class="img-fluid">
+            <p>해변과 나이트 라이프로 유명한 도시로, 수상 스포츠와 엔터테인먼트가 인기입니다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 관광지 1 -->
+  <div class="modal fade" id="attractionModal1" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel1">관광지 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/thailand tour 1.jpg" alt="태국 관광지 1" class="img-fluid">
+          <p>[방콕]왕궁과 왕릉:
+
+그랑 궁전(Grand Palace): 태국 왕실의 중심지로, 화려한 태국 건축 양식을 보여줍니다. 에메랄드 부처상(Phra Kaew Morakot)은 그 안에 위치하고 있습니다.
+왓 프라 케오(Wat Phra Kaew): 그랑 궁전 내에 위치하며, 태국에서 가장 신성한 불교 사원으로, 아름다운 부처상과 신성한 건축물을 감상할 수 있습니다.
+역사적 건축물:
+
+와트 아룬(Wat Arun): 새벽 또는 일몰에 가장 아름다운 불교 사원으로, 강을 향해 둥근 탑이 독특한 매력을 제공합니다.
+와트 포(Wat Pho): 태국에서 가장 큰 부처상인 레클라이닝 부처상이 있는 곳으로, 전통 태국 마사지의 중심지로도 유명합니다.
+현대적 명소:
+
+충족 플로팅 마켓(Chao Phraya River Floating Markets): 강에서 운영되는 전통적인 시장으로, 신선한 해산물과 태국 전통 음식을 맛볼 수 있습니다.
+아시아 티크코 그룹(Asiatique The Riverfront): 강변에 위치한 대규모 쇼핑몰과 엔터테인먼트 복합시설로, 쇼핑과 식사를 즐길 수 있습니다.
+문화적 경험:
+
+방콕 국립 박물관(National Museum): 태국의 역사와 문화를 이해하는 데 도움을 주는 다양한 전시물을 제공합니다.
+짐 톰 역(Zumthor): 현대 미술 전시장으로, 태국과 국제적인 작품들을 감상할 수 있습니다.
+쇼핑과 음식:
+
+카오산로드(Khao San Road): 젊은 이들에게 인기 있는 거리로, 싸고 다양한 물품을 구매할 수 있으며, 길거리 음식과 바를 즐길 수 있습니다.
+쿰룽쉐 도선 명절(Chinatown): 중국 문화의 영향을 받은 지역으로, 전통적인 중국 요리와 골목길 상점들이 특징입니다.
+방콕은 다양한 문화적, 역사적, 현대적 장소들을 제공하여 방문객들에게 풍성한 경험을 제공하는 도시입니다.
+
+
+
+</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 2 -->
+  <div class="modal fade" id="attractionModal2" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel2">관광지 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/thailand tour 2.jpg" alt="태국 관광지 2" class="img-fluid">
+          <p>[푸켓]파타야 해변 (Patong Beach):
+
+푸켓에서 가장 유명한 해변 중 하나로, 백사장과 청명한 바다가 매력적입니다. 여기에는 다양한 호텔, 레스토랑, 바, 나이트 클럽이 있어 휴식과 오락을 즐길 수 있습니다.
+빅 부드하(Big Buddha):
+
+푸켓의 중심부에 위치한 대형 부처상으로, 높은 언덕에 자리 잡고 있어 푸켓 전체를 한눈에 볼 수 있는 전망을 제공합니다. 특히 일몰 시간에는 아름다운 풍경을 감상할 수 있습니다.
+푸켓 올드 타운 (Phuket Old Town):
+
+역사적인 건축물과 문화적 유산이 보존된 곳으로, 컬러풀한 집들과 전통적인 중국식 가게들이 있는 곳입니다. 유서 깊은 사원과 박물관도 방문할 수 있습니다.
+자메인 마르켓 (Jamein Market):
+
+푸켓 올드 타운에서 열리는 전통적인 시장으로, 태국 요리와 골목길 상점들이 매력적입니다. 현지 음식과 공예품을 쇼핑하거나 맛 볼 수 있습니다.
+쿠 렘 비치 (Karon Beach)와 카타 비치 (Kata Beach):
+
+파타야보다는 조용하고 평화로운 분위기의 해변으로, 휴양과 스노클링을 즐길 수 있는 좋은 장소입니다.
+푸켓 트리키트 피어 (Phuket Trick Eye Museum):
+
+국제적으로 유명한 3D 미술관으로, 다양한 입체적인 그림들을 통해 참여형 예술 체험을 할 수 있습니다.
+호랑가시섬 (Phi Phi Islands):
+
+푸켓에서 배를 타고 가는 것이 가능한 해변으로, 작은 섬들은 순수하고 매력적인 해변을 자랑합니다.
+
+
+</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 3 -->
+  <div class="modal fade" id="attractionModal3" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel3">관광지 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/thailand tour 3.jpg" alt="태국 관광지 3" class="img-fluid">
+          <p>[파타야]파타야 해변 (Pattaya Beach):
+
+파타야의 중심에 위치한 이 해변은 백사장과 맑은 바다가 특징입니다. 해수욕을 즐기거나, 스노클링, 제트스키, 패러세일링 등 다양한 수상 스포츠를 즐길 수 있습니다.
+워킹 스트리트 (Walking Street):
+
+파타야에서 가장 유명한 나이트 라이프 지역으로, 바, 클럽, 레스토랑, 상점들이 밀집해 있습니다. 밤에는 각종 음악과 불빛이 분위기를 살려주며, 다채로운 엔터테인먼트를 즐길 수 있습니다.
+티피 대상 (Pattaya Floating Market):
+
+태국 전통 시장을 재현한 이 곳은 수상 마을 형식으로, 다양한 식품과 공예품을 쇼핑할 수 있는 곳입니다. 각종 먹거리를 맛보고 문화적 경험을 즐길 수 있습니다.
+타이 랜드 조세이 (Thai Alangkarn Theater):
+
+태국 전통 예술과 문화를 경험할 수 있는 곳으로, 태국의 다양한 문화적 공연을 관람할 수 있습니다.
+프라타렁 (Pattaya Elephant Village):
+
+코끼리와 관련된 다양한 활동을 제공하는 곳으로, 코끼리 쇼와 코끼리 타기 등을 체험할 수 있습니다.
+비치로드 (Beach Road):
+
+해변을 따라 이어지는 도로로, 산책하며 바다 경치를 감상할 수 있는 곳입니다. 또한, 이곳에는 다양한 호텔, 레스토랑, 상점들이 위치해 있습니다.
+헬로 카바레 쇼 (Alcazar Cabaret Show):
+
+파타야에서 가장 유명한 쇼로, 다양한 의상과 춤으로 구성된 쇼를 감상할 수 있습니다. 특히, 코스튬과 무대 설정이 화려하며, 태국 전통 무용과 현대적인 엔터테인먼트가 결합된 곳입니다.
+파타야는 해변에서의 휴양과 다채로운 엔터테인먼트를 원하는 방문객들에게 매우 인기 있는 도시입니다.
+
+
+
+</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 여행 팁 섹션 -->
+  <section id="tips" class="section bg-info">
+    <div class="container">
+      <h2 class="text-center">여행 팁</h2>
+      <ul>
+        <li>방문하기 좋은 시기: 주로 건조한 시즌인 11월부터 다음 해 4월까지입니다.</li>
+        <li>언어: 태국어. 주요 도시에서는 영어도 사용되지만, 기본적인 태국어 구문을 배우면 도움이 됩니다.</li>
+        <li>통화: 태국 바트 (BaHt,THB). 1바트는 100센트입니다.(한국화폐로 약 10원)</li>
+        <li>교통: 태국의 교통은 다양하고 편리하지만(바이크,모터사이클,버스,지하철,택시), 도심에서는 교통 체증이 발생할 수 있으며, 주의해야 할 점도 있습니다. 특히 택시를 이용할 때는 미터기 사용을 강조하고, 교통 규칙과 안전에 항상 주의를 기울여야 합니다.</li>
+      </ul>
+      <div class="text-center">
+        <!-- 여기에 YouTube 동영상 링크를 추가하세요 -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F4WwVd1SCWk?si=ev0m8QZ2B2f05OG9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+  </section>
+
+  <footer class="text-center">
+    <p>&copy; 2024 일본 여행 가이드. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
